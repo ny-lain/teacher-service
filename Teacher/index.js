@@ -3,7 +3,7 @@ const app = express();
 app.use(express.json());
 
 app.post('/addassignment', (req, res) => {
-    res.send('<html><body>INSIDE UPDATE PROFILE API..</body></html>')
+    res.send('<html><body>INSIDE ADD ASSIGNMENT API..</body></html>')
 })
 
 app.get("/searchstudent", (req, res) => {
